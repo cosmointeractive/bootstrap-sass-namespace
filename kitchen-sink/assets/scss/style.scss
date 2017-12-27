@@ -1,0 +1,36 @@
+/**
+ * Main website styles
+ *
+ * This file contains all the elements needed to change the 
+ * appearance of the site. 
+ *
+ * @project   <http://mysite.com> 
+ * @version   0.1.1
+ * @package   xhtml-css
+ * @author    Cosmo Mathieu <http://cosmointeractive.co> 
+ * @copyright 2014 <http://cosmointeractive.co>
+ * @file style.css
+ * @css-for IE 8+, Safari 4+, Firefox 3+
+ * 
+ * --------------------------------------------------------------
+ * Table of Contents
+ * --------------------------------------------------------------
+ * 1.0 - Reset
+ * 
+ * 
+ * --------------------------------------------------------------
+ * Color Glossary - needs updating
+ * --------------------------------------------------------------
+ * Dark gray (text):            #333333
+ *
+ */ 
+// --------------------------------------------------------------
+// Sass file Imports
+// --------------------------------------------------------------
+@import "_bootstrap"; 
+// @import "variables"; 
+// @import "mixins";
+
+body {
+    color: $gray-base;
+}
